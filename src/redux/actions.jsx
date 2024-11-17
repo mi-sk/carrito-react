@@ -6,7 +6,6 @@ export const increment = (newProduct) => ({
   payload: newProduct,
 });
 
-// actions.js
 export const decrement = (id) => ({
   type: 'DISMINUIR_CANTIDAD',
   payload: { id }
