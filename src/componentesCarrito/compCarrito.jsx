@@ -30,5 +30,3 @@ export function Carrito() {
         </>
     );
 }
-//a
-// a
