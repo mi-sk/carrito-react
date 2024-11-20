@@ -36,7 +36,7 @@ export function Productos() {
         <>
             <Provider store={store}>
                 <section className='componenteProductos'>
-                    <h1>Productos - Juan Sebastián Giraldo Cardona</h1>
+                    <h1>Productos</h1>
                     <section className='holderProductos'>
                         {
                             productos.map(({ id, imagenProd, nombreProd, precioProd }) => (

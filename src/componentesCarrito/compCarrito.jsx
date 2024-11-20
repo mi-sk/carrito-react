@@ -12,7 +12,7 @@ export function Carrito() {
         <>
             <Provider store={store}>
                 <section className='componenteCarrito'>
-                    <h1>Carrito de compras - JSGC</h1>
+                    <h1>Carrito de compras</h1>
                     <section className='holderCarrito'>
                         {
                             productosEnCarrito.map(({ id, nombreProd, precioProd, quantity }) => (
