@@ -34,7 +34,7 @@ import { increment } from '../redux/actions';
                     <div className='precioProducto'><b> {precioProd}$ </b></div>
                 </div>
                 <div className='botones'> 
-                    <button className='botonAgregar' onClick={handleIncrement}> Agregar al carrito </button>
+                    <button className='botonAgregar' onClick={handleIncrement}> añadir al carrito </button>
                 </div>
             </div>
         );

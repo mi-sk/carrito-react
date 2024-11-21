@@ -26,7 +26,7 @@ export function CarritoInfo({ id, nombreProd, precioProd, quantity }) {
                 </div>
                 <div className='carrito-botones'> 
                     <p>Cantidad: { producto.quantity } </p>
-                    <button className='botonRemover' onClick={handleDisminuir}>Eliminar</button>
+                    <button className='botonRemover' onClick={handleDisminuir}>Delete</button>
                 </div>
             </div>
         );
